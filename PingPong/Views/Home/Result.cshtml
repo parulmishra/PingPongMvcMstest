@@ -1,0 +1,12 @@
+<h1>WELCOME TO THE PING PONG GAME</h1>
+<br><br>
+<h2>Number you have entered is: @Model.Count<h2>
+<br><br>
+<h2>Results of Ping Pong are:</h2>
+
+<ul>
+@foreach(var val in Model)
+{
+	<li>@val</li>
+}
+</ul>
